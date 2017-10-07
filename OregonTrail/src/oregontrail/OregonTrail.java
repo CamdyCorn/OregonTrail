@@ -3,19 +3,28 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package oregontrail;
+package OregonTrail;
 
+import byui.cit260.oregontrail.model.Player;
 /**
  *
- * @author Owner
+ * @author Poe
  */
 public class OregonTrail {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+    public static void main(String[] args)
+    {
+        Player playerOne = new Player();
+        
+        playerOne.setName("Devin Poe");
+        playerOne.setBestTime(999);
+        
+        String playerOneName = playerOne.getName();
+        double playerOneTime = playerOne.getBestTime();
+        
+        System.out.println(playerOne.toString());
+        //don't copy page 30, but build off it
+        //set up the player class
+        //set properties
+        //print out it's properties to the screen
     }
-    
 }
