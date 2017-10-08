@@ -5,7 +5,7 @@ import java.util.Objects;
 
 /**
  *
- * @author Owner
+ * @author Camden
  */
 public class Player implements Serializable
 {
