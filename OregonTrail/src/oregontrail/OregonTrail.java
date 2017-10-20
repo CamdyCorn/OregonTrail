@@ -6,6 +6,7 @@
 package OregonTrail;
 
 import byui.cit260.oregontrail.model.Player;
+
 /**
  *
  * @author Poe
