@@ -9,7 +9,7 @@ import byui.cit260.oregontrail.model.Inventory;
 
 /**
  *
- * @author Owner
+ * @author Camden
  */
 public class InventoryControl {
     
