@@ -32,9 +32,10 @@ public class PointControl {
    
         }
         else {
-            double SafelyCross;
-            SafelyCross = Double.parseDouble("You cross the river safely");
-            return SafelyCross;
+            String SafelyCross;
+            SafelyCross = "You cross the river safely";
+            System.out.println(SafelyCross);
+            return 0;
         }
 }
     
