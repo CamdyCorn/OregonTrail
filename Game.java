@@ -4,60 +4,69 @@ import java.io.Serializable;
 
 /**
  *
- * @author Poe & cleaned by Marchylia
+ * @author Poe
  */
 public class Game implements Serializable {
-    //the Private Class Instance Variables
     private double totalTime;
-    private int numOfPeople;
+    private int noPeople;
+    private int male;
+    private int female;
     private Player player;
     
-    //the Default Constructor 
-    public Game() { 
+    public Game() {
+            
     }
 
-    //the Public Getter Function
+    public int getMale() {
+        return male;
+    }
+
+    public void setMale(int male) {
+        this.male = male;
+    }
+
+    public int getFemale() {
+        return female;
+    }
+
+    public void setFemale(int female) {
+        this.female = female;
+    }
+
     public double getTotalTime() {
         return totalTime;
     }
 
-    //the Public Setter Function
     public void setTotalTime(double totalTime) {
         this.totalTime = totalTime;
     }
 
-    //the Public Getter Function
-    public int getNumOfPeople() {
-        return numOfPeople;
+    public int getNoPeople() {
+        return noPeople;
     }
 
-    //the Public Setter Function
-    public void setNumOfPeople(int noPeople) {
-        this.numOfPeople = numOfPeople;
+    public void setNoPeople(int noPeople) {
+        this.noPeople = noPeople;
     }
 
-    //the Public Getter Function
     public Player getPlayer() {
         return player;
     }
 
-    //the Public Setter Function
     public void setPlayer(Player player) {
         this.player = player;
     }
 
     @Override
-    //the HashCode Method
     public int hashCode() {
         int hash = 7;
         hash = 23 * hash + (int) (Double.doubleToLongBits(this.totalTime) ^ (Double.doubleToLongBits(this.totalTime) >>> 32));
-        hash = 23 * hash + this.numOfPeople;
+        hash = 23 * hash + this.noPeople;
         hash = 23 * hash + (this.player != null ? this.player.hashCode() : 0);
         return hash;
     }
 
     @Override
-    //the Equals Method
     public boolean equals(Object obj) {
         if (this == obj) {
             return true;
@@ -72,7 +81,7 @@ public class Game implements Serializable {
         if (Double.doubleToLongBits(this.totalTime) != Double.doubleToLongBits(other.totalTime)) {
             return false;
         }
-        if (this.numOfPeople != other.numOfPeople) {
+        if (this.noPeople != other.noPeople) {
             return false;
         }
         if (this.player != other.player && (this.player == null || !this.player.equals(other.player))) {
@@ -80,4 +89,6 @@ public class Game implements Serializable {
         }
         return true;
     }
+
+
 }
