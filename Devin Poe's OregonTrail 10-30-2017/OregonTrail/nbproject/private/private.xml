@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="2">
+        <file>
+            <url>src/byui/cit260/oregontrail/model/Player.java</url>
+            <bookmark id="2">
+                <name/>
+                <line>14</line>
+                <key/>
+            </bookmark>
+            <bookmark id="1">
+                <name/>
+                <line>16</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/model/Player.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/control/GameControl.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/citbyui/cit260oregontrail/view/MainMenuView.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/citbyui/cit260oregontrail/view/GameMenuView.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/model/Actor.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/model/Inventory.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/control/PaceControl.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/oregontrail/OregonTrail.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/model/Point.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/citbyui/cit260oregontrail/view/StartProgramView.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/citbyui/cit260oregontrail/view/HelpMenuView.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/nbproject/build-impl.xml</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/model/Location.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/model/Game.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/test/byui/cit260/oregontrail/control/PaceControlTest.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/control/CurrentHealthControl.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/model/Pace.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/control/InventoryControl.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/test/byui/cit260/oregontrail/control/InventoryControlTest.java</file>
+            <file>file:/C:/Users/MasterCraft%20Computer/Desktop/OregonTrail/OregonTrail/src/byui/cit260/oregontrail/control/PointControl.java</file>
+        </group>
+    </open-files>
+</project-private>
