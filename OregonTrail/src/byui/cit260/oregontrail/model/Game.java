@@ -6,15 +6,31 @@ import java.io.Serializable;
  *
  * @author Poe
  */
-public class Game implements Serializable 
-{
+public class Game implements Serializable {
     private double totalTime;
     private int noPeople;
+    private int male;
+    private int female;
     private Player player;
     
-    public Game() 
-    {
+    public Game() {
             
+    }
+
+    public int getMale() {
+        return male;
+    }
+
+    public void setMale(int male) {
+        this.male = male;
+    }
+
+    public int getFemale() {
+        return female;
+    }
+
+    public void setFemale(int female) {
+        this.female = female;
     }
 
     public double getTotalTime() {

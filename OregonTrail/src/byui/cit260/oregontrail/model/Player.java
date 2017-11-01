@@ -5,41 +5,40 @@ import java.util.Objects;
 
 /**
  *
- * @author Camden
+ * @author Poe & Camden & cleaned by Marchylia
  */
-public class Player implements Serializable
-{
-     //class instance variables
+public class Player implements Serializable {
+    //the Private Class Instance Variables
     private String name;
     private double bestTime;
-    //constructor method
-    public Player() 
-    {
-      
+    
+    //the Default Constructor 
+    public Player() {  
     }
-    public String getName() 
-    {
+    
+    //the Public Getter Function
+    public String getName() {
         return name;
     }
 
-    public void setName(String name) 
-    {
+    //the Public Setter Function
+    public void setName(String name) {
         this.name = name;
     }
 
-    public double getBestTime() 
-    {
+    //the Public Getter Function
+    public double getBestTime() {
         return bestTime;
     }
 
-    public void setBestTime(double bestTime) 
-    {
+    //the Public Setter Function
+    public void setBestTime(double bestTime) {
         this.bestTime = bestTime;
     }
 
     @Override
-    public int hashCode() 
-    {
+    //the HashCode Method
+    public int hashCode() {
         int hash = 7;
         hash = 97 * hash + Objects.hashCode(this.name);
         hash = 97 * hash + (int) (Double.doubleToLongBits(this.bestTime) ^ (Double.doubleToLongBits(this.bestTime) >>> 32));
@@ -47,8 +46,8 @@ public class Player implements Serializable
     }
 
     @Override
-    public boolean equals(Object obj) 
-    {
+    //the Equals Method
+    public boolean equals(Object obj) {
         if (this == obj) {
             return true;
         }
@@ -69,8 +68,8 @@ public class Player implements Serializable
     }
 
     @Override
-    public String toString() 
-    {
+    //the ToString Method
+    public String toString() {
         return "Player{" + "name=" + name + ", bestTime=" + bestTime + '}';
     }   
 }

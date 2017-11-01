@@ -9,8 +9,14 @@ public enum Actor {
     //add in a point class
     Bob("Satchel", "His IS BOB!", new Point (1,1)),
     Snob("Snobbington", "He is a snob.", new Point(0,1));
+
+    //Feel free to add in as many characters as you please, 
+    //I just kept with for simplicity sake.
+    
+
     //Feel free to add in as many characters as you please, I just kept with 2
     //for simplicity sake.
+
     //attribute variables
     private String name;
     private String description;

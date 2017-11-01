@@ -9,19 +9,25 @@ import byui.cit260.oregontrail.model.Inventory;
 
 /**
  *
- * @author Camden
+<<<<<<< HEAD
+ * @author Owner
  */
-public class InventoryControl {
-    
-    public double getWeight(double Pickles, double Eggs) {
-	if (Pickles < 0 || Pickles > 100) {
-		return -1;
+public class InventoryControl 
+{
+    public double getWeight(double Pickles, double Eggs) 
+    {
+	if (Pickles < 0 || Pickles > 100) 
+        {
+            return -1;
         }
-        else if (Eggs < 0 || Eggs > 100) {
-                 return -1;
+        else if (Eggs < 0 || Eggs > 100) 
+        {
+            return -1;
         }
-        else {
+        else 
+        {
             return Pickles + Eggs;
         }
+    }
 }
-}
+
