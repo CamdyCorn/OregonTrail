@@ -1,14 +1,16 @@
+package OregonTrail;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package OregonTrail;
+
 
 import byui.cit260.oregontrail.model.Game;
 import byui.cit260.oregontrail.model.Inventory;
 import byui.cit260.oregontrail.model.Player;
-import citbyui.cit260oregontrail.view.StartProgramView;
+import byui.cit260.oregontrail.view.StartProgramView;
 /**
  *
  * @author Poe

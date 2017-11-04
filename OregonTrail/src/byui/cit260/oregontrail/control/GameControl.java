@@ -5,6 +5,7 @@
  */
 package byui.cit260.oregontrail.control;
 
+import OregonTrail.OregonTrail;
 import byui.cit260.oregontrail.model.Game;
 import byui.cit260.oregontrail.model.Player;
 
@@ -15,11 +16,22 @@ import byui.cit260.oregontrail.model.Player;
  */
 public class GameControl {
 
-    public static void createNewGame(Player player) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    public static Player createPlayer(String playersName)
+    {
+        System.out.println("/n*** createPlayer() called ***");
+        if (playersName == null)
+        {
+            return null;
+        }
+        Player player = new Player();
+        player.setName(playersName);
+        
+        OregonTrail.setPlayer(player);
+        
+        return player;
     }
 
-    public static Player createPlayer(String playersName) {
+    public static void createNewGame(Player player) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
