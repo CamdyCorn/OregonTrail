@@ -3,19 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package byui.cit260.oregontrail.control;
+package byui.cit260.oregontrail.test;
 
+import byui.cit260.oregontrail.control.GameControl;
+import org.junit.AfterClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.BeforeClass;
 
 /**
  *
- * @author Marchylia
+ * @author MasterCraft Computer
  */
+
 public class GameControlTest {
     
-    public GameControlTest() {
-    }
+    public GameControlTest() {}
 
     /**
      * Test of getNoPeople method, of class GameControl.

@@ -3,30 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package byui.cit260.oregontrail.control;
+package byui.cit260.oregontrail.test;
 
-import org.junit.After;
-import org.junit.Before;
+import byui.cit260.oregontrail.control.PointControl;
+import org.junit.AfterClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.junit.BeforeClass;
 
 /**
  *
- * @author Camden
+ * @author MasterCraft Computer
  */
 public class PointControlTest {
     
     public PointControlTest() {
     }
-    
-    @Before
-    public void setUp() {
-    }
-    
-    @After
-    public void tearDown() {
-    }
-
     /**
      * Test of riverCrossing method, of class PointControl.
      */
