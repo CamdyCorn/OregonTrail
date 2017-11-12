@@ -13,46 +13,31 @@ import java.util.Scanner;
  *
  * @author MasterCraft Computer
  */
-public class MainMenuView 
+public abstract class MainMenuView extends View
 {
-    private String menu;
     private String value;
     private String helpMenu;
     private boolean done;
+    public MainMenuView()
+    {
+    super(        "\n"
+                + "\n -----------------------"
+                + "\n | Main Menu            |"
+                + "\n -----------------------"
+                + "\nN - Start new game"
+                + "\nG - Get and start saved game"
+                + "\nH - Get help on how to play the game"
+                + "\nS - Save Game"
+                + "\nQ - Quit"
+                + "---------------------------");
     
-    public void displayMainMenuView()
-    {
-        done = false;
-        do
-        {
-            System.out.println(this.menu);
-            String menuOption = this.getMenuOption();
-            if(menuOption.toUpperCase().equals("Q"))
-                return;
-            this.doAction(menuOption);
-            done = false;
-        } while (!done);
     }
-        private String getMenuOption() 
-        {
-        Scanner keyboard = new Scanner(System.in);
-        String value = "";
-        boolean valid = false;
-        
-        while (!valid) {
-            
-            value = keyboard.nextLine();
-            value = value.trim();
-            break;
-        }
-        
-        return value;
-    }
-
-    private boolean doAction(String choice) 
+}
+    @Override
+    public boolean doAction(String value) 
     {
-        choice = choice.toUpperCase();
-        switch (choice)
+        value = value.toUpperCase();
+        switch (value)
         {
             case "N":
                 this.startNewGame();
@@ -72,20 +57,7 @@ public class MainMenuView
         }
         return false;
     }
-    public MainMenuView()
-    {
-        this.menu = "\n"
-                + "\n -----------------------"
-                + "\n | Main Menu            |"
-                + "\n -----------------------"
-                + "\nN - Start new game"
-                + "\nG - Get and start saved game"
-                + "\nH - Get help on how to play the game"
-                + "\nS - Save Game"
-                + "\nQ - Quit"
-                + "---------------------------";
-        done = true;
-    }
+    
 
     private void startNewGame() 
     {

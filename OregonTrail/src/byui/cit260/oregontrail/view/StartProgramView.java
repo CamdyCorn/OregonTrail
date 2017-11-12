@@ -95,9 +95,16 @@ private String promptMessage;
                          + "\n Welcome to the game " + player.getName()
                          + "\n We hope you die a lot!"
                          + "\n===================================");
-        MainMenuView mainMenuView = new MainMenuView();
+        MainMenuView mainMenuView = new MainMenuView() 
+        {
+            @Override
+            public boolean doAction(String value) 
+            {
+           
+            }
+        };
         
-        mainMenuView.displayMainMenuView();
+        mainMenuView.display();
           
     }
 }

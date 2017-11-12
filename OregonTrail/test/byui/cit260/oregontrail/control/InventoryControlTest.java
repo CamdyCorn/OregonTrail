@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package byui.cit260.oregontrail.test;
+package byui.cit260.oregontrail.control;
 
 import byui.cit260.oregontrail.control.InventoryControl;
 import org.junit.AfterClass;
