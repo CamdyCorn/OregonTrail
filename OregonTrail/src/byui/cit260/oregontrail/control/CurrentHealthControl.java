@@ -5,17 +5,20 @@
  */
 package byui.cit260.oregontrail.control;
 import byui.cit260.oregontrail.model.Player;
+import byui.cit260.oregontrail.exceptions.CurrentHealthControlException;
 /**
  *
  * @author MasterCraft Computer
  */
-public class CurrentHealthControl 
+public class CurrentHealthControl
 {
-    public int getCurrentHealth(int CurrentHealth)
+    public int getCurrentHealth(int CurrentHealth) throws CurrentHealthControlException
     {
         if (CurrentHealth < 0 || CurrentHealth > 10)
         {
-            return -1;
+            //exception
+            throw new CurrentHealthControlException("Health cannot make you more dead");
+            //return -1;
         }
         else
         {
